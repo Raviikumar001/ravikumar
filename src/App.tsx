@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-     <div className='min-h-screen bg_gradient'>
+     <div className=''>
       <Home />
      </div>
     </>
