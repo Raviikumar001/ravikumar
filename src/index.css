@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg_gradient{
+ 
+  @apply rounded-xl  border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur  ;
+ }
+
+.charTrans{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: example 2s linear 0s ;
+  
+}
+@keyframes example {
+  from {
+    width: 0;
+  }
+  to {
+    width: 150px;
+  }
+}
