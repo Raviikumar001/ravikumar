@@ -11,7 +11,7 @@ const Home: React.FC = () => {
           <span className="charTrans">A Web Developer </span>
         </span>
 
-        <p className="text-lg mt-5 leading-relaxed">
+        <p className="text-lg mt-5 leading-relaxed mr-2">
           I'm from Dehradun, India. I love building{" "}
           <RoughNotation
             show={true}
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
         <div>
           <div className="mt-[20%]">
             <p className="text-blue-800 font-semibold">Background</p>
-            <div className="mt-5 mr-6 text-justify ">
+            <div className="mt-5 mr-6 text-left ">
               <p>
                 I have recently graduated from{" "}
                 <b> Institute of Technology, Gopeshwar</b>, after completing
