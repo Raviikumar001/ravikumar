@@ -173,7 +173,7 @@ const Home: React.FC = () => {
                 >
                   <span className="font-semibold">Hire me. </span>
                 </RoughNotation>
-                <p className="mt-3 cursor-pointer">View my resume <Arrow /> </p>
+                <p className="mt-3 cursor-pointer underline decoration-sky-500 decoration-4">View my resume <Arrow /> </p>
               </p>
             </div>
           </div>
