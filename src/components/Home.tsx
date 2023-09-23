@@ -133,7 +133,7 @@ const Home: React.FC = () => {
                 >
                   efficient,
                 </RoughNotation>{" "}
-                ensuring a seamless user experience. I'm well-versed in both {" "}
+                ensuring a seamless user experience.I'm well-versed in {" "}
                 
                 <RoughNotation
                   show={true}
