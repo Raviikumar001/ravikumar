@@ -1,5 +1,6 @@
 
 import Home from './components/Home'
+import Projects from './components/Projects'
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <>
      <div className=''>
       <Home />
+      <Projects />
      </div>
     </>
   )

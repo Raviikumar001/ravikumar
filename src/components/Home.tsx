@@ -2,6 +2,11 @@ import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import { Github, Linkedin, Twitter, Arrow } from "./SvgFiles";
 
+
+
+
+
+
 const Home: React.FC = () => {
   return (
     <div>
@@ -154,7 +159,7 @@ const Home: React.FC = () => {
                <RoughNotation  show={true}
                   animate={true}
                   type="highlight"
-                  color="#F4E869"
+                  color="#E5C3A6"
                   animationDelay={1400}
                   animationDuration={800} ><span> backend</span>  </RoughNotation>  
                {" "}  development, ready to tackle new
@@ -173,12 +178,14 @@ const Home: React.FC = () => {
                 >
                   <span className="font-semibold">Hire me. </span>
                 </RoughNotation>
-                <p className="mt-3 cursor-pointer underline decoration-sky-500 decoration-4">View my resume <Arrow /> </p>
+                <span className="block mt-3 cursor-pointer underline decoration-sky-500 decoration-4">View my resume <Arrow /> </span>
               </p>
             </div>
           </div>
         </div>
+
       </div>
+        
     </div>
   );
 };
