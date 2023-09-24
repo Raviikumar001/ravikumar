@@ -4,8 +4,29 @@ import { Github, Linkedin, Twitter, Arrow } from "./SvgFiles";
 
 
 
+const handleLinkedin= ()=>{
+
+  window.open("https://www.linkedin.com/in/ravi-kumaar", "_blank")
+
+}
+
+const handleGithub= ()=>{
+
+  window.open("https://github.com/Raviikumar001", "_blank")
+
+}
 
 
+const handleTwitter= ()=>{
+
+  window.open("https://twitter.com/ravikumrz", "_blank")
+
+}
+const handleResume= ()=>{
+
+  window.open("https://drive.google.com/file/d/1JpzDjiUNPEVR48vXna9w5Ja_uDmksHFL/view?usp=sharing", "_blank")
+
+}
 
 const Home: React.FC = () => {
   return (
@@ -63,8 +84,8 @@ const Home: React.FC = () => {
           , and everything in between.
         </p>
         <div className="mt-3">
-          <div className="  rounded-md w-auto">
-            <button>
+          <div className="  rounded-md w-auto ">
+            <button onClick={handleLinkedin}>
               <div className="flex justify-center items-center">
                 <Linkedin />
                 <p className="text-md">LinkedIn</p>
@@ -73,7 +94,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="rounded-md ">
-            <button>
+            <button onClick={handleGithub}>
               <div className="flex justify-center items-center">
                 <Github />
                 <p className="text-md">Github</p>
@@ -82,7 +103,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="rounded-md ">
-            <button>
+            <button onClick={handleTwitter}>
               <div className="flex justify-center items-center">
                 <Twitter />
                 <p className="text-md">Twitter</p>
@@ -99,7 +120,7 @@ const Home: React.FC = () => {
               show={true}
               color="#bf360c"
             >
-              kumarraviabhi007@gmail.com
+           <a href={`mailto:kumarraviabhi007@gmail.com`}>   kumarraviabhi007@gmail.com </a>
             </RoughNotation>
           </p>
         </div>
@@ -179,7 +200,7 @@ const Home: React.FC = () => {
                 >
                   <span className="font-semibold">Hire me. </span>
                 </RoughNotation>
-                <span className="block mt-3 cursor-pointer underline decoration-sky-500 decoration-4">View my resume <Arrow /> </span>
+                <span className="block mt-3 cursor-pointer underline decoration-sky-500 decoration-4" onClick={handleResume} >View my resume <Arrow /> </span>
               </p>
             </div>
           </div>

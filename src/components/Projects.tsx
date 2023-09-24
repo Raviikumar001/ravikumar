@@ -110,9 +110,46 @@ const proj3Array = [
     },
   ];
 
+  const handleProjec1= ()=>{
+
+    window.open("https://scribly-note.vercel.app", "_blank")
+  
+  }
+  const handleProjec2= ()=>{
+
+    window.open("https://ai-promptus.vercel.app", "_blank")
+  
+  }
+
+  const handleProjec3= ()=>{
+
+    window.open("https://github.com/Raviikumar001/gitbattle", "_blank")
+  
+  }
+
+  const handleSource1= ()=>{
+
+    window.open("https://github.com/Raviikumar001/Scribly", "_blank")
+  
+  }
+
+  const handleSource2= ()=>{
+
+    window.open("https://github.com/Raviikumar001/AIPromptus", "_blank")
+  
+  }
+
+  const handleSource3= ()=>{
+
+    window.open("https://github.com/Raviikumar001/gitbattle", "_blank")
+  
+  }
+
+
+
 const Projects: React.FC = () => {
   return (
-    <div className="mt-[5%] ml-10 mr-6">
+    <div className="mt-[5%] ml-10 mr-6 mb-5">
       <div>
         <p className="font-semibold text-blue-700">Skills & Tools</p>
         <div className="flex flex-wrap mt-4">
@@ -145,10 +182,10 @@ const Projects: React.FC = () => {
                 seamless note-taking experience.
               </p>
               <div className="flex ">
-                <button className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
-                  <Globe /> Live project
+                <button onClick={handleProjec1} className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                  <Globe  /> Live project
                 </button>
-                <button className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleSource1} className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Github2 /> View Source
                 </button>
               </div>
@@ -181,10 +218,10 @@ const Projects: React.FC = () => {
 
               </p>
               <div className="flex ">
-                <button className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleProjec2} className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Globe /> Live project
                 </button>
-                <button className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleSource2} className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Github2 /> View Source
                 </button>
               </div>
@@ -220,10 +257,10 @@ const Projects: React.FC = () => {
 
               </p>
               <div className="flex ">
-                <button className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleProjec3} className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Globe /> Live project
                 </button>
-                <button className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleSource3} className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Github2 /> View Source
                 </button>
               </div>
