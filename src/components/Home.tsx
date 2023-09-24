@@ -159,12 +159,13 @@ const Home: React.FC = () => {
                <RoughNotation  show={true}
                   animate={true}
                   type="highlight"
-                  color="#E5C3A6"
+                  color="#E5C3A6  "
                   animationDelay={1400}
                   animationDuration={800} ><span> backend</span>  </RoughNotation>  
                {" "}  development, ready to tackle new
                 challenges and make meaningful contributions to your team.
                 Excited about the opportunities ahead!
+                <br  />
                 <br />
                 I'm, currently looking for a role as a developer.
                 <RoughNotation
