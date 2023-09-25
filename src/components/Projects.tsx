@@ -176,11 +176,11 @@ const Projects: React.FC = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
                   Scribly Note
                 </h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 A feature rich note-taking Web App,focusing on simplicity and
                 seamless note-taking experience.
               </p>
@@ -212,11 +212,11 @@ const Projects: React.FC = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
                 Ai promptus
                 </h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
               Ai Promptus website, A Twitter like platform dedicated to creating and sharing Ai prompts.
 
               </p>
@@ -250,11 +250,11 @@ const Projects: React.FC = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
                 GitHub Battle
                 </h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
               Uses Github API for repository info. You can Battle two GitHub users.
 
 
