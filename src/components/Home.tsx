@@ -24,7 +24,7 @@ const handleTwitter= ()=>{
 }
 const handleResume= ()=>{
 
-  window.open("https://drive.google.com/file/d/1JpzDjiUNPEVR48vXna9w5Ja_uDmksHFL/view?usp=sharing", "_blank")
+  window.open("https://drive.google.com/file/d/1iwkvH5kLJZvGFci5vXjfjtgU2indVcP1/view?usp=sharing", "_blank")
 
 }
 
