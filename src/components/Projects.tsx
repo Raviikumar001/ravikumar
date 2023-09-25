@@ -64,21 +64,24 @@ const proj1Array = [
   {
     id: 1,
     skill: "React",
-  },
-  {
-    id: 2,
-    skill: "Mongodb",
+  },{
+    id:2,
+    skill:"TypeScript"
   },
   {
     id: 3,
-    skill: "Node Js",
+    skill: "Mongodb",
   },
   {
     id: 4,
-    skill: "Tailwind CSS",
+    skill: "Node Js",
   },
   {
     id: 5,
+    skill: "Tailwind CSS",
+  },
+  {
+    id: 6,
     skill: "Express Js",
   },
 ];
@@ -149,8 +152,8 @@ const proj3Array = [
 
 const Projects: React.FC = () => {
   return (
-    <div className="mt-[5%] ml-10 mr-6 mb-5">
-      <div>
+    <div className="mt-[5%] ml-10 mr-6 mb-5 ">
+      <div className="md:mt-[10%] md:ml-[15%] lg:mt-[10%]  lg:ml-[15%] md:mr-[10%]">
         <p className="font-semibold text-blue-700">Skills & Tools</p>
         <div className="flex flex-wrap mt-4">
           {skills.map((skill) => (
@@ -164,10 +167,10 @@ const Projects: React.FC = () => {
         </div>
       </div>
 
-      <div>
-        <p className="font-semibold text-blue-700 mt-3">Selected projects</p>
-        <div className="mt-5">
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div  className="">
+        <p className="font-semibold text-blue-700 mt-3 md:mt-[10%] md:ml-[15%] lg:mt-[10%]  lg:ml-[15%]">Selected projects</p>
+        <div className="mt-5 md:flex md:gap-2 md:ml-[8%] lg:flex lg:gap-2 lg:ml-[8%] md:flex-wrap">
+          <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a href="#">
               <img className="rounded-t-lg" src={scriblle} alt="Scribly note" />
             </a>
@@ -203,7 +206,7 @@ const Projects: React.FC = () => {
           </div>
 
 {/* //2 card */}
-          <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a href="#">
               <img className="rounded-t-lg" src={ai} alt="Ai promptus" />
             </a>
@@ -241,7 +244,7 @@ const Projects: React.FC = () => {
 
               {/* 3rd Card           */}
 
-              <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a href="#">
               <img className="rounded-t-lg" src={gitB} alt="Ai promptus" />
             </a>

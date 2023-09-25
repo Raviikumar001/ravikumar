@@ -1,7 +1,7 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import { Github, Linkedin, Twitter, Arrow } from "./SvgFiles";
-
+import ravi from '../../public/ravi.png'
 
 
 const handleLinkedin= ()=>{
@@ -31,13 +31,17 @@ const handleResume= ()=>{
 const Home: React.FC = () => {
   return (
     <div>
-      <div className="mt-[16%] ml-10">
-        <span className="font-inter  text-2xl leading-relaxed">
+      <div className="mt-[16%] ml-10 md:mt-[10%] md:ml-[15%] lg:mt-[10%]  lg:ml-[15%]">
+
+        <div className="md:flex md:justify-between  lg:flex lg:justify-between">
+        <span className="font-inter  text-2xl md:text-3xl md:leading-relaxed leading-relaxed">
           Namaste 🙏 <br /> I'm Ravi, <br />
           <span className="charTrans">A Web Developer </span>
         </span>
+        <img className=" md:mr-[20%] rounded-full md:shadow-lg  hidden md:block lg:mr-[20%] " src={ravi} alt="Ai promptus" />
+        </div>
 
-        <p className="text-lg mt-5 leading-relaxed mr-2">
+        <p className="text-lg mt-5 leading-relaxed mr-2 md:mr-[45%] md:text-xl ">
           I'm from Dehradun, India. I love building{" "}
           <RoughNotation
             show={true}
@@ -81,9 +85,9 @@ const Home: React.FC = () => {
           >
             web apps
           </RoughNotation>{" "}
-          , and everything in between.
+          ,and everything in between.
         </p>
-        <div className="mt-3">
+        <div className="mt-3 md:flex md: items-center gap-7 md:mt-5">
           <div className="  rounded-md w-auto ">
             <button onClick={handleLinkedin}>
               <div className="flex justify-center items-center">
@@ -110,7 +114,9 @@ const Home: React.FC = () => {
               </div>
             </button>
           </div>
-          <p>
+          
+        </div>
+        <p className="md:mt-4">
             Email 👉
             <RoughNotation
               type="underline"
@@ -123,13 +129,12 @@ const Home: React.FC = () => {
            <a href={`mailto:kumarraviabhi007@gmail.com`}>   kumarraviabhi007@gmail.com </a>
             </RoughNotation>
           </p>
-        </div>
-
         <div>
-          <div className="mt-[20%]">
-            <p className="text-blue-800 font-semibold">Background</p>
-            <div className="mt-5 mr-6 text-left ">
-              <p>
+
+          <div className="mt-[20%] md:flex md:mt-[10%]">
+            <p className="text-blue-800 font-semibold md:inline-block">Background</p>
+            <div className="mt-5 mr-6 text-left md:mt-0 md:ml-[10%] md:mr-[20%] lg:mr-[20%] lg:ml-[10%]">
+              <p className="md:inline-block">
                 I have recently graduated from{" "}
                 <b> Institute of Technology, Gopeshwar</b>, after completing
                 Bachelor of Techynology in Computer Science.
