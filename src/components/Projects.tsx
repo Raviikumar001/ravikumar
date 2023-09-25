@@ -3,7 +3,7 @@ import React from "react";
 import { Github2, Globe } from "./SvgFiles";
 
 import ai from "../../public/ai-prompt-min.png";
-import scriblle from "../../public/scribly-note-min.png";
+import scriblle from "../../public/scribly-note.png";
 import gitB from "../../public/Git-Battle-min.png";
 const skills = [
   {
@@ -152,8 +152,8 @@ const proj3Array = [
 
 const Projects: React.FC = () => {
   return (
-    <div className="mt-[5%] ml-10 mr-6 mb-5 ">
-      <div className="md:mt-[10%] md:ml-[15%] lg:mt-[10%]  lg:ml-[15%] md:mr-[10%]">
+    <div className="mt-[5%] ml-10 mr-6 mb-5 md:ml-0 ">
+      <div className=" md:mr-[10%] md:mt-[10%] md:ml-[15%] lg:mt-[10%]  lg:ml-[15%]">
         <p className="font-semibold text-blue-700">Skills & Tools</p>
         <div className="flex flex-wrap mt-4">
           {skills.map((skill) => (
@@ -168,7 +168,7 @@ const Projects: React.FC = () => {
       </div>
 
       <div  className="">
-        <p className="font-semibold text-blue-700 mt-3 md:mt-[10%] md:ml-[15%] lg:mt-[10%]  lg:ml-[15%]">Selected projects</p>
+        <p className="font-semibold text-blue-700 md:mt-[5%] md:ml-[15%]">Selected projects</p>
         <div className="mt-5 md:flex md:gap-2 md:ml-[8%] lg:flex lg:gap-2 lg:ml-[8%] md:flex-wrap">
           <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a href="#">
