@@ -85,7 +85,7 @@ const Home: React.FC = () => {
           >
             web apps
           </RoughNotation>{" "}
-          ,and everything in between.
+          and everything in between.
         </p>
         <div className="mt-3 md:flex md: items-center gap-7 md:mt-5">
           <div className="  rounded-md w-auto ">
