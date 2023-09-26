@@ -38,10 +38,10 @@ const Home: React.FC = () => {
           Namaste 🙏 <br /> I'm Ravi, <br />
           <span className="charTrans">A Web Developer </span>
         </span>
-        <img className=" md:mr-[20%] rounded-full md:shadow-lg  hidden md:block lg:mr-[20%] " src={ravi} alt="Ai promptus" />
+        <img className=" md:mr-[10%] rounded-full md:shadow-lg  hidden md:block lg:mr-[20%]" src={ravi} alt="Ai promptus" />
         </div>
 
-        <p className="text-lg mt-5 leading-relaxed mr-2 md:mr-[40%] md:text-xl lg:mr-[38%] ">
+        <p className="text-lg mt- leading-relaxed mr-2 md:mr-[45%] md:text-xl  xl:mr-[50%]">
           I'm from Dehradun, India. I love building{" "}
           <RoughNotation
             show={true}
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
 
           <div className="mt-[20%] md:flex md:mt-[10%]">
             <p className="text-blue-800 font-semibold md:inline-block">Background</p>
-            <div className="mt-5 mr-6 text-left md:mt-0 md:ml-[10%] md:mr-[20%] lg:mr-[20%] lg:ml-[10%]">
+            <div className="mt-5 mr-6 text-left md:mt-0 md:ml-[10%] md:mr-[20%] lg:mr-[20%] lg:ml-[5%] xl:mr-[10%]">
               <p className="md:inline-block">
                 I have recently graduated from{" "}
                 <b> Institute of Technology, Gopeshwar</b>, after completing
