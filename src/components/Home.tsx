@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         <img className=" md:mr-[20%] rounded-full md:shadow-lg  hidden md:block lg:mr-[20%] " src={ravi} alt="Ai promptus" />
         </div>
 
-        <p className="text-lg mt-5 leading-relaxed mr-2 md:mr-[45%] md:text-xl ">
+        <p className="text-lg mt-5 leading-relaxed mr-2 md:mr-[40%] md:text-xl lg:mr-[38%] ">
           I'm from Dehradun, India. I love building{" "}
           <RoughNotation
             show={true}
