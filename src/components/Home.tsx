@@ -1,6 +1,6 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
-import { Github, Linkedin, Twitter, Arrow } from "./SvgFiles";
+import { Github, Linkedin, Twitter, Arrow ,Resume } from "./SvgFiles";
 import ravi from '../../public/ravi.png'
 
 
@@ -114,9 +114,18 @@ const Home: React.FC = () => {
               </div>
             </button>
           </div>
+
+          <div className="rounded-md ">
+            <button onClick={handleResume}>
+              <div className="flex justify-center items-center">
+                <Resume />
+                <p className="text-md">Resume</p>
+              </div>
+            </button>
+          </div>
           
         </div>
-        <p className="md:mt-4">
+        <p className="md:mt-4 mt-4">
             Email 👉
             <RoughNotation
               type="underline"
