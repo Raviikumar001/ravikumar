@@ -171,11 +171,11 @@ const Projects: React.FC = () => {
         <p className="font-semibold text-blue-700 md:mt-[5%] md:ml-[15%] mt-6">Selected projects</p>
         <div className="mt-5 md:flex md:gap-2 md:ml-[8%] lg:flex lg:gap-2 lg:ml-[8%] md:flex-wrap md:justify-center">
           <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
-            <a href="#">
+            <a >
               <img className="rounded-t-lg" src={scriblle} alt="Scribly note" />
             </a>
             <div className="p-5">
-              <a href="#">
+              <a >
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
                   Scribly Note
                 </h5>
@@ -207,11 +207,11 @@ const Projects: React.FC = () => {
 
 {/* //2 card */}
           <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
-            <a href="#">
+            <a >
               <img className="rounded-t-lg" src={ai} alt="Ai promptus" />
             </a>
             <div className="p-5">
-              <a href="#">
+              <a >
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
                 Ai promptus
                 </h5>
@@ -245,11 +245,11 @@ const Projects: React.FC = () => {
               {/* 3rd Card           */}
 
               <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
-            <a href="#">
+            <a >
               <img className="rounded-t-lg" src={gitB} alt="Ai promptus" />
             </a>
             <div className="p-5">
-              <a href="#">
+              <a >
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
                 GitHub Battle
                 </h5>
