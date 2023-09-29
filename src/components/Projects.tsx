@@ -84,6 +84,10 @@ const proj1Array = [
     id: 6,
     skill: "Express Js",
   },
+  {
+    id:7,
+    skill: "Passport js"
+  },
 ];
 
 const proj2Array = [
