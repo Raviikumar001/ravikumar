@@ -5,6 +5,7 @@ import { Github2, Globe } from "./SvgFiles";
 import ai from "../../public/ai-prompt-min.png";
 import scriblle from "../../public/scribly-note.png";
 import gitB from "../../public/Git-Battle-min.png";
+import edit from '../../public/jupyter.png';
 const skills = [
   {
     id: 1,
@@ -97,6 +98,39 @@ const proj2Array = [
   },
   {
     id: 2,
+    skill: "Node Js"
+  },
+  {
+    id : 3,
+    skill: "Express Js"
+  },
+  {
+    id: 4,
+    skill: "Socket.io"
+  },
+  {
+    id: 5,
+    skill: "Mongodb",
+  },
+  {
+    id: 6,
+    skill: "TypeScript"
+  },
+
+  {
+    id: 7,
+    skill: "Tailwind CSS",
+  },
+];
+
+
+const proj3Array = [
+  {
+    id: 1,
+    skill: "Next Js",
+  },
+  {
+    id: 2,
     skill: "Mongodb",
   },
   {
@@ -105,7 +139,7 @@ const proj2Array = [
   },
 ];
 
-const proj3Array = [
+const proj4Array = [
     {
       id: 1,
       skill: "React",
@@ -122,15 +156,23 @@ const proj3Array = [
     window.open("https://scribly-note.vercel.app", "_blank")
   
   }
+
   const handleProjec2= ()=>{
+
+    window.open("https://jupyter-edit.vercel.app", "_blank")
+  
+  }
+
+
+  const handleProjec3= ()=>{
 
     window.open("https://ai-promptus.vercel.app", "_blank")
   
   }
 
-  const handleProjec3= ()=>{
+  const handleProjec4= ()=>{
 
-    window.open("https://github.com/Raviikumar001/gitbattle", "_blank")
+    window.open("https://graceful-vacherin-79994b.netlify.app", "_blank")
   
   }
 
@@ -142,11 +184,18 @@ const proj3Array = [
 
   const handleSource2= ()=>{
 
+    window.open("https://github.com/Raviikumar001/JupyterEdit", "_blank")
+  
+  }
+
+
+  const handleSource3= ()=>{
+
     window.open("https://github.com/Raviikumar001/AIPromptus", "_blank")
   
   }
 
-  const handleSource3= ()=>{
+  const handleSource4= ()=>{
 
     window.open("https://github.com/Raviikumar001/gitbattle", "_blank")
   
@@ -209,19 +258,20 @@ const Projects: React.FC = () => {
             </div>
           </div>
 
-{/* //2 card */}
-          <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
+                  {/* // 2 card */}
+
+                  <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a >
-              <img className="rounded-t-lg" src={ai} alt="Ai promptus" />
+              <img className="rounded-t-lg" src={edit} alt="jupyter edit" />
             </a>
             <div className="p-5">
               <a >
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
-                Ai promptus
+                Jupyter Edit
                 </h5>
               </a>
               <p className="mb-3 font-normal text-gray-700 ">
-              Ai Promptus website, A Twitter like platform dedicated to creating and sharing Ai prompts.
+              A collaborate online document editor, Edit you ideas in real-time.
 
               </p>
               <div className="flex ">
@@ -246,7 +296,46 @@ const Projects: React.FC = () => {
           </div>
 
 
-              {/* 3rd Card           */}
+
+
+{/* //3 card */}
+          <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
+            <a >
+              <img className="rounded-t-lg" src={ai} alt="Ai promptus" />
+            </a>
+            <div className="p-5">
+              <a >
+                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 ">
+                Ai promptus
+                </h5>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 ">
+              Ai Promptus website, A Twitter like platform dedicated to creating and sharing Ai prompts.
+
+              </p>
+              <div className="flex ">
+                <button onClick={handleProjec3} className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                  <Globe /> Live project
+                </button>
+                <button onClick={handleSource3} className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                  <Github2 /> View Source
+                </button>
+              </div>
+              <div className="flex flex-wrap mt-4">
+                {proj3Array.map((skill) => (
+                  <div
+                    key={skill.id}
+                    className="p-2  border-2 border-sky-800 m-1 rounded-md text-blue-700 text-sm"
+                  >
+                    {skill.skill}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+
+              {/* 4rd Card           */}
 
               <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a >
@@ -264,15 +353,15 @@ const Projects: React.FC = () => {
 
               </p>
               <div className="flex ">
-                <button onClick={handleProjec3} className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleProjec4} className="flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Globe /> Live project
                 </button>
-                <button onClick={handleSource3} className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
+                <button onClick={handleSource4} className="ml-1 flex items-center gap-1 border-2 border-blue-700 rounded-md p-1">
                   <Github2 /> View Source
                 </button>
               </div>
               <div className="flex flex-wrap mt-4">
-                {proj3Array.map((skill) => (
+                {proj4Array.map((skill) => (
                   <div
                     key={skill.id}
                     className="p-2  border-2 border-sky-800 m-1 rounded-md text-blue-700 text-sm"
