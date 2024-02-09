@@ -146,7 +146,7 @@ const Home: React.FC = () => {
               <p className="md:inline-block">
                 I have recently graduated from{" "}
                 <b> Institute of Technology, Gopeshwar</b>, after completing
-                Bachelor of Techynology in Computer Science.
+                Bachelor of Technology in Computer Science.
                 <br />
                 <br />
                 As a web developer passionate about bridging the gap between
