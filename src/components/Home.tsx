@@ -75,6 +75,7 @@ const Home: React.FC = () => {
             interfaces,
           </RoughNotation>
           {""}
+          <br />
           <RoughNotation
             show={true}
             animate={true}
