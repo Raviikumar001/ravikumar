@@ -179,20 +179,20 @@ const proj3Array = [
   },
 ];
 
-const proj4Array = [
-  {
-    id: 1,
-    skill: "Next Js",
-  },
-  {
-    id: 2,
-    skill: "Mongodb",
-  },
-  {
-    id: 4,
-    skill: "Tailwind CSS",
-  },
-];
+// const proj4Array = [
+//   {
+//     id: 1,
+//     skill: "Next Js",
+//   },
+//   {
+//     id: 2,
+//     skill: "Mongodb",
+//   },
+//   {
+//     id: 4,
+//     skill: "Tailwind CSS",
+//   },
+// ];
 
 const proj5Array = [
   {
@@ -222,9 +222,9 @@ const handleProjec4 = () => {
   window.open("https://graceful-vacherin-79994b.netlify.app", "_blank");
 };
 
-const handleProjec5 = () => {
-  window.open("https://ai-promptus.vercel.app", "_blank");
-};
+// const handleProjec5 = () => {
+//   window.open("https://ai-promptus.vercel.app", "_blank");
+// };
 
 const handleSource1 = () => {
   window.open("https://github.com/Raviikumar001/Scribly", "_blank");
@@ -240,9 +240,9 @@ const handleSource4 = () => {
   window.open("https://github.com/Raviikumar001/gitbattle", "_blank");
 };
 
-const handleSource5 = () => {
-  window.open("https://github.com/Raviikumar001/AIPromptus", "_blank");
-};
+// const handleSource5 = () => {
+//   window.open("https://github.com/Raviikumar001/AIPromptus", "_blank");
+// };
 
 const Projects: React.FC = () => {
   return (
