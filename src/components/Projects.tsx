@@ -10,64 +10,76 @@ import kitten from "../../public/kittens.png";
 const skills = [
   {
     id: 1,
-    skill: "HTML",
-  },
-  {
-    id: 2,
-    skill: "CSS3",
-  },
-  {
-    id: 3,
-    skill: "JavaScript",
-  },
-  {
-    id: 4,
     skill: "React",
   },
+
   {
-    id: 5,
-    skill: "Redux",
+    id: 2,
+    skill: "Next Js",
   },
+
   {
-    id: 6,
-    skill: "Node Js",
-  },
-  {
-    id: 7,
-    skill: "Restful Api",
-  },
-  {
-    id: 8,
-    skill: "Express",
-  },
-  {
-    id: 9,
+    id: 3,
     skill: "Typescript",
   },
   {
+    id: 4,
+    skill: "Cypress",
+  },
+  {
+    id: 5,
+    skill: "JavaScript",
+  },
+  {
+    id: 6,
+    skill: "Redux",
+  },
+  {
+    id: 7,
+    skill: "HTML",
+  },
+  {
+    id: 8,
+    skill: "CSS3",
+  },
+
+  {
+    id: 9,
+    skill: "Node Js",
+  },
+  {
     id: 10,
-    skill: "Go",
+    skill: "Restful Api",
   },
   {
     id: 11,
-    skill: "Mongodb",
+    skill: "Express",
   },
 
   {
     id: 12,
-    skill: "SCSS",
+    skill: "Go",
   },
   {
     id: 13,
-    skill: "Git",
+    skill: "Mongodb",
   },
+
   {
     id: 14,
-    skill: "Github",
+    skill: "Postgresql",
   },
   {
     id: 15,
-    skill: "Vs Code",
+    skill: "SCSS",
+  },
+  {
+    id: 16,
+    skill: "Git",
+  },
+  {
+    id: 17,
+    skill: "Github",
   },
 ];
 
@@ -353,7 +365,7 @@ const Projects: React.FC = () => {
                 </button>
               </div>
               <div className="flex flex-wrap mt-4">
-                {proj4Array.map((skill) => (
+                {proj5Array.map((skill) => (
                   <div key={skill.id} className="p-2  border-2 border-sky-800 m-1 rounded-md text-blue-700 text-sm">
                     {skill.skill}
                   </div>
@@ -364,7 +376,7 @@ const Projects: React.FC = () => {
 
           {/* 5rd Card           */}
 
-          <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
+          {/* <div className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
             <a>
               <img className="rounded-t-lg" src={ai} alt="Ai promptus" />
             </a>
@@ -389,7 +401,7 @@ const Projects: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

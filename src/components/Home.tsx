@@ -97,7 +97,7 @@ const Home: React.FC = () => {
             <p className="text-blue-800 font-semibold md:inline-block">Background</p>
             <div className="mt-5 mr-6 text-left md:mt-0 md:ml-[10%] md:mr-[20%] lg:mr-[20%] lg:ml-[5%] xl:mr-[10%]">
               <p className="md:inline-block">
-                I have recently graduated from <b> Institute of Technology, Gopeshwar</b>, after completing Bachelor of Technology in Computer Science.
+                I have recently graduated from <b> Uttarakhand Technical University(2023) with Bachelor's in CS</b>
                 <br />
                 <br />
                 As a web developer passionate about bridging the gap between engineering and design. My primary goal is to develop applications that are both{" "}
