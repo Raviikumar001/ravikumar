@@ -2,7 +2,7 @@ import React from "react";
 
 import { Github2, Globe } from "./SvgFiles";
 
-import ai from "../../public/ai-prompt-min.png";
+// import ai from "../../public/ai-prompt-min.png";
 import scriblle from "../../public/scribly-note.png";
 import gitB from "../../public/Git-Battle-min.png";
 import edit from "../../public/jupyter.png";
