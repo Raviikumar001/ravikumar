@@ -15,7 +15,7 @@ const handleTwitter = () => {
   window.open("https://twitter.com/ravikumrz", "_blank");
 };
 const handleResume = () => {
-  window.open("https://drive.google.com/file/d/1NNvSrTeX0M1S6KPRLDZ95Xt7wsqiMnHG/view?usp=sharing", "_blank");
+  window.open("https://drive.google.com/file/d/1GOk2QtoIWj17Lf-BhbT5P2jbgUBx_3rg/view?usp=sharing", "_blank");
 };
 
 const Home: React.FC = () => {
