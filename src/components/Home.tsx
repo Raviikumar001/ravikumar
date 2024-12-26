@@ -227,7 +227,7 @@ const Home: React.FC = () => {
                   animationDelay={1400}
                   animationDuration={800}
                 >
-                  front-end,
+                  frontend,
                 </RoughNotation>{" "}
                 and{" "}
                 <RoughNotation
