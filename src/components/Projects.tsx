@@ -245,7 +245,10 @@ const handleSource3 = () => {
   window.open("https://github.com/Raviikumar001/JupyterEdit", "_blank");
 };
 const handleSource4 = () => {
-  window.open("https://github.com/Raviikumar001/gitbattle", "_blank");
+  window.open(
+    "https://github.com/Raviikumar001/Github-search-angular",
+    "_blank"
+  );
 };
 
 const Projects: React.FC = () => {
